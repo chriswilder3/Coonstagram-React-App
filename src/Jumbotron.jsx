@@ -1,6 +1,6 @@
 export default function Jumbotron(){
     return (
-        <div className=" bg-pink-500 text-white p-3">
+        <div className=" bg-pink-600 text-white p-3">
             <h1 className=" text-5xl font-bold my-2">
                  Coonstagram
             </h1>
