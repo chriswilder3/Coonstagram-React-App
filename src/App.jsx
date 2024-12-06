@@ -1,27 +1,20 @@
 import './App.css';
+import Navbar from './Navbar';
+import React, { useState } from "react";
+
+import Jumbotron from './Jumbotron';
+
 
 function App() {
+  
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src="Octocat.png" className="App-logo" alt="logo" />
-        <p>
-          GitHub Codespaces <span className="heart">♥️</span> React
-        </p>
-        <p className="small">
-          Edit <code>src/App.jsx</code> and save to reload.
-        </p>
-        <p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </p>
-      </header>
+    <div className="App ">
+        <Navbar></Navbar>
+        <Jumbotron></Jumbotron>
+        <h1 className='p-3'> Hello World! </h1>
+        <button className='bg-slate-200 p-1' onClick={ () => toggleColor(color === 1?0:1)}>
+        Click
+        </button>
     </div>
   );
 }
