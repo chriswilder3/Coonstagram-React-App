@@ -4,8 +4,8 @@ import coonstagram from './coonstagram.png';
 function Navbar(){
     const [inboxCount, changeInbox] = useState(0)
     return ( <div >
-        <nav>
-            <ul className="flex flex-row p-3 gap-5 items-center
+        <nav className="fixed min-w-full ">
+            <ul className=" bg-slate-100 flex flex-row p-3 gap-5 items-center
                 ">
                 <a href="" className=" z-10">
                     <img className="w-9 " src={coonstagram} alt="" />
