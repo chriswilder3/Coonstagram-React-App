@@ -8,7 +8,7 @@ function Navbar(){
             <ul className="flex flex-row p-3 gap-5 items-center
                 ">
                 <a href="" className=" z-10">
-                    <img className="w-12" src={coonstagram} alt="" />
+                    <img className="w-9 " src={coonstagram} alt="" />
                 </a>
                 <li className="bg-slate-700 hover:bg-slate-800 px-3 py-1 text-slate-300 hover:text-white rounded">
                     <a href="#"> Home </a>
