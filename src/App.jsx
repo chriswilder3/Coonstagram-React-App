@@ -1,10 +1,10 @@
 import './App.css';
-import Navbar from './Navbar';
+import Navbar from './components/Navbar';
 import React, { useState } from "react";
-import coonstagram from './coonstagram.png';
 
-import Jumbotron from './Jumbotron';
-import HomeFeed from './HomeFeed';
+
+import Jumbotron from './components/Jumbotron';
+import HomeFeed from './components/HomeFeed';
 
 function App() {
   
