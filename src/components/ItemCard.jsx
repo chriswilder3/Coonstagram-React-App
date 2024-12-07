@@ -1,4 +1,4 @@
-export default function ItemCard(){
+export default function ItemCard(props){
     return( 
         
     <div className="max-w-2xl px-8 py-4 bg-white rounded-lg shadow-md dark:bg-gray-800">
@@ -9,7 +9,7 @@ export default function ItemCard(){
             </div>
 
             <div className="mt-2">
-                <a href="#" className="text-xl font-bold text-gray-700 dark:text-white hover:text-gray-600 dark:hover:text-gray-200 hover:underline" tabIndex="0" role="link">Exploring the Future of AI</a>
+                <a href="#" className="text-xl font-bold text-gray-700 dark:text-white hover:text-gray-600 dark:hover:text-gray-200 hover:underline" tabIndex="0" role="link">{props.post_name}</a>
                 <p className="mt-2 text-gray-600 dark:text-gray-300">
                     The rapid advancements in AI are reshaping industries. From autonomous vehicles to personalized healthcare, the possibilities are endless. What excites you most about the future of AI?
                 </p>
